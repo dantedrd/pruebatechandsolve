@@ -1,0 +1,9 @@
+@media(max-width:600px){
+    .main_section{
+       padding: 4%;
+    }
+
+    .mentions{
+        display: inherit;
+    }
+}

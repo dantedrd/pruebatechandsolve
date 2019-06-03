@@ -1,0 +1,30 @@
+{
+  "presets": ["es2015", "react", "stage-0"],
+  "plugins": [
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread",
+    "react-loadable/babel"
+  ],
+  "env": {
+    "production": {
+      "presets": ["react", "stage-0"],
+      "plugins": [
+        "transform-class-properties",
+        "transform-decorators-legacy",
+        "transform-object-rest-spread",
+        "react-loadable/babel"
+      ]
+    },
+    "development": {
+      "presets": ["react", "stage-0"],
+      "plugins": [
+        "react-hot-loader/babel",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "transform-object-rest-spread",
+        "react-loadable/babel"
+      ]
+    }
+  }
+}

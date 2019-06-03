@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-sylder{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.slyderSuperHeroes{
+  display: flex;
+  margin-left: 17%;
+  margin-top: 6%;
+}
+
+@media (max-width: 900px) {
+    .grid {
+      display: inherit;
+    }
+    .grid-sylder {
+      display: inherit;
+    }
+    .slyderSuperHeroes{
+      display: inherit;
+    }
+}

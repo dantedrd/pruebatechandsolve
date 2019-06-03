@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/* variables*/
+:root{
+  --green-color:#7ACC2D;
+  --white-color:white;
+  --black-color:#313337;
+  /*espaciado*/
+  --space:10px;
+
+  /*tipografia*/
+  --normal:20px;
+
+  /*box shadaw*/
+  --box:0px 0px 3px #121010
+}
+
+
+html,body{
+   padding: 0px;
+   margin: 0px;
+   font-size: var(--normal);
+   font-family: 'Open Sans', sans-serif;
+}
+p,label{
+ font-size: 87%
+}
+
+/*navigation */
+nav{
+  display: flex;
+  background-color: #bbbbbb;
+  padding: 9px;
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+   color: var(--black-color);
+   text-decoration: none
+}
+nav li a:hover{
+   color: var(--white-color)
+}
+
+nav p{
+  color: black;
+  font-size: 26px;
+}
+
+/*Superheroes GRID*/
+
+  .mentions{
+    padding: 5%;
+  }
+  .mention .picture{
+    width: 50%;
+    height: 166px;
+  }
+  h2.mention_title{
+    text-align: center;
+  }
+  .mention{
+    padding: var(--space);
+  }
+  .content_mention{
+    display: flex;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+  }
+  .mention .text{
+    padding: var(--space);
+  }
+
+  .mention .edictor{
+    margin-top: 51px;
+  }
+
+  .superheroe_box{
+    display: flex;
+    max-width: 84%;
+    margin-left: 22%;
+    margin-top: 3%;
+  }
+
+  .superheroe_box img {
+    width: 43%;
+    height: 242px;
+  }
+
+  .mention .pictureRankin{
+    width: 100%;
+    height: 166px;
+  }
+  .content_ranking{
+    display: inherit;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+  }
+
+  /*Superheroes GRID*/
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--normal);
+    background-color: var(--black-color);
+    padding: var(--space);
+    color: var(--white-color);
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .paginationButton{
+    margin-left: 38%;
+    margin-top: 64px;
+  }
+
+  
+.loading-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.dislike{
+  margin-left: 6%;
+}
+
+.likeStyle{
+  cursor: pointer;
+}
+
+.arrowRight{
+  margin-top: 4%;
+  margin-left: 2%;
+}
+.arrowLeft{
+  margin-top: 4%;
+  margin-right: 3%;
+}
+
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+
+.data{
+  margin-top: var(--space);
+  width:100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.main_button{
+  background-color: #5e9e22;
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.main_button:hover{
+  background-color: var(--green-color);
+}
+
